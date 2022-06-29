@@ -7,7 +7,7 @@ Instruction on how to build OpenCV with CUDA support for Nvidia Jetson AGX Orin 
 The below commands needs to be run inside Nvidia Jetson AGX Orin device or a sysroot.
 
 ```sh
-cd AGX Orin
+cd AGX_Orin
 ./build-opencv-with-cuda-nvidia-jetson-agx-orin.sh
 ```
 
@@ -20,7 +20,7 @@ Instruction on how to build OpenCV with CUDA support for Nvidia Jetson AGX Xavie
 The below commands needs to be run inside Nvidia Jetson AGX Xavier device or a sysroot.
 
 ```sh
-cd AGX Xavier
+cd AGX_Xavier
 ./build-opencv-with-cuda-nvidia-jetson-agx-xavier.sh
 ```
 
@@ -33,7 +33,7 @@ Instruction on how to build OpenCV with CUDA support for Nvidia Jetson Nano can 
 The below commands needs to be run inside Nvidia Jetson Nano device or a sysroot.
 
 ```sh
-cd AGX Xavier
+cd Nano
 ./build-opencv-with-cuda-nvidia-jetson-nano.sh
 ```
 
