@@ -3,9 +3,9 @@
 set -euf -o pipefail
 
 # OpenCV defines
-OPENCV_VERSION=4.5.4
-ARCH_BIN=8.7 # Jetson AGX Orin
-CUDNN_VERSION=8.3
+OPENCV_VERSION=4.1.1
+ARCH_BIN=5.3 # Jetson Nano
+CUDNN_VERSION=8.2
 NUM_JOBS=$(nproc)
 OPENCV_DOWNLOAD_DIR=/home/opencv
 OPENCV_DIR=opencv-$OPENCV_VERSION
